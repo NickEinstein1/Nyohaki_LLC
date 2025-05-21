@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkinsure=self.webpackChunkinsure||[]).push([[210],{210:(e,s,n)=>{n.r(s),n.d(s,{default:()=>c});var a=n(43),l=n(579);const i=(0,a.lazy)((()=>Promise.all([n.e(408),n.e(761)]).then(n.bind(n,761)))),r=(0,a.lazy)((()=>n.e(711).then(n.bind(n,711)))),c=()=>(0,l.jsx)(l.Fragment,{children:(0,l.jsxs)(a.Suspense,{fallback:(0,l.jsx)("div",{className:"text-center py-20",children:"Loading..."}),children:[(0,l.jsx)(i,{}),(0,l.jsx)(r,{})]})})}}]);
+//# sourceMappingURL=210.4fe1a451.chunk.js.map

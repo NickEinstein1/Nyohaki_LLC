@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', 'Roboto', sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+html.dark body {
+  background: #0f172a;
+  color: #f1f5f9;
+}
+
+main {
+  transition: background 0.3s, color 0.3s;
+}
+
+html.dark main {
+  background: #0f172a;
+  color: #f1f5f9;
+}
