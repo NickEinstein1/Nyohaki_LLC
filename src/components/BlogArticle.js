@@ -24,8 +24,8 @@ export const articles = [
     )
   },
   {
-    slug: 'risk-management-investment',
-    title: 'Why More Businesses Are Investing in Risk Management Services',
+    slug: 'risk-management-savings',
+    title: 'Why More Businesses Are Saving with Risk Management Services',
     img: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=400&q=80',
     content: (
       <>
@@ -38,7 +38,7 @@ export const articles = [
           <li><b>Business Continuity:</b> Develop robust plans to keep operations running during disruptions.</li>
         </ul>
         <p className="mb-2 text-gray-800 dark:text-blue-100">
-          Investing in risk management isn’t just about avoiding losses—it’s about building resilience and gaining a competitive edge. Businesses that prioritize risk management are better prepared for whatever the future holds.
+          Saving with risk management isn't just about avoiding losses—it's about building resilience and gaining a competitive edge. Businesses that prioritize risk management are better prepared for whatever the future holds.
         </p>
         <div className="mt-4 text-xs text-gray-500">By Juliet Kamau • Industry News & Trends</div>
       </>
@@ -163,7 +163,7 @@ export const articles = [
           <p><b className="text-blue-900 dark:text-blue-300">Legacy Planning:</b> Life insurance can help you leave a legacy, support charities, or fund future generations.</p>
           <p><b className="text-blue-900 dark:text-blue-300">Affordable Protection:</b> Many options exist for every budget. The earlier you start, the better the rates.</p>
         </div>
-        <p>Investing in life insurance today ensures your family’s tomorrow is secure and full of opportunity.</p>
+        <p>Saving with life insurance today ensures your family's tomorrow is secure and full of opportunity.</p>
       </>
     )
   },

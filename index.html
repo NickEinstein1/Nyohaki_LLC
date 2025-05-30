@@ -202,6 +202,49 @@
       );
     }
 
+    // --- Team Section ---
+    function Team() {
+      return (
+        <section id="team" className="py-16 bg-white">
+          <div className="max-w-7xl mx-auto px-4">
+            <h2 className="text-4xl font-bold text-center mb-12">Our Leadership</h2>
+            
+            {/* CEO Section */}
+            <div className="flex flex-col md:flex-row items-center gap-8 mb-16">
+              <div className="w-full md:w-1/3">
+                <div className="relative rounded-lg overflow-hidden shadow-xl">
+                  <img 
+                    src="/images/ceo-placeholder.jpg" 
+                    alt="Juliet Wambui Kamau - CEO" 
+                    className="w-full h-auto"
+                    onError={(e) => e.target.src = 'https://via.placeholder.com/400x500?text=CEO+Photo'}
+                  />
+                </div>
+              </div>
+              <div className="w-full md:w-2/3 space-y-6">
+                <div>
+                  <h3 className="text-3xl font-bold text-primary mb-2">Juliet Wambui Kamau</h3>
+                  <p className="text-xl text-blue-600 mb-4">Chief Executive Officer</p>
+                </div>
+                <div className="prose prose-lg max-w-none text-gray-600">
+                  <p>As the CEO of Nyohaki LLC, Juliet Wambui Kamau brings visionary leadership and extensive industry expertise to our organization. With a passion for innovation and excellence, she leads our team in delivering exceptional insurance solutions that make a real difference in people's lives.</p>
+                  <p className="mt-4">Under her guidance, we continue to push boundaries and set new standards in the insurance industry, always putting our clients' needs first and fostering a culture of trust, integrity, and professional excellence.</p>
+                </div>
+                <div className="flex gap-4 mt-6">
+                  <a href="#" className="text-blue-600 hover:text-blue-800">
+                    <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452H17.21v-5.569c0-1.327-.025-3.037-1.849-3.037-1.851 0-2.132 1.445-2.132 2.939v5.667h-3.238V9h3.105v1.561h.044c.434-.82 1.494-1.684 3.073-1.684 3.287 0 3.892 2.164 3.892 4.977v6.598zM5.337 7.433a1.87 1.87 0 1 1 0-3.738 1.87 1.87 0 0 1 0 3.738zm1.619 13.019H3.719V9h3.237v11.452zM22.225 0H1.771C.792 0 0 .771 0 1.723v20.549C0 23.229.792 24 1.771 24h20.451C23.2 24 24 23.229 24 22.271V1.723C24 .771 23.2 0 22.225 0z"/></svg>
+                  </a>
+                  <a href="#" className="text-blue-600 hover:text-blue-800">
+                    <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M24 4.557a9.93 9.93 0 0 1-2.828.775 4.932 4.932 0 0 0 2.165-2.724c-.951.564-2.005.974-3.127 1.195a4.916 4.916 0 0 0-8.384 4.482C7.691 8.095 4.066 6.13 1.64 3.161c-.542.929-.856 2.009-.857 3.17 0 2.188 1.115 4.117 2.823 5.253a4.904 4.904 0 0 1-2.228-.616c-.053 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.627 1.956 2.444 3.377 4.6 3.417A9.868 9.868 0 0 1 0 21.543a13.94 13.94 0 0 0 7.548 2.209c9.058 0 14.009-7.496 14.009-13.986 0-.213-.005-.425-.014-.636A10.025 10.025 0 0 0 24 4.557z"/></svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      );
+    }
+
     function App() {
       return (
         <>
@@ -209,6 +252,7 @@
           <main>
             <Home />
             <About />
+            <Team />
             <Services />
             <Quote />
           </main>

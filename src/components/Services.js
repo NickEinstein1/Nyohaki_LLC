@@ -45,7 +45,7 @@ const details = {
   },
   financial: {
     title: 'Financial Services',
-    content: 'From investment planning to retirement solutions, our financial advisors guide you to secure your financial future with personalized, data-driven advice.'
+    content: 'From savings planning to retirement solutions, our financial advisors guide you to secure your financial future with personalized, data-driven advice.'
   },
   analytics: {
     title: 'Data Analytics Services',

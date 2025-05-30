@@ -5,9 +5,9 @@ const testimonials = [
   {
     id: 1,
     text: "NYOHAKI's analytics and risk management transformed our business. We feel secure and empowered with their comprehensive solutions.",
-    author: "Jane D.",
+    author: "Susan W.",
     position: "Business Owner",
-    image: "/images/jane.jpg",
+    image: "/images/susan.jpg",
     rating: 5
   },
   {
