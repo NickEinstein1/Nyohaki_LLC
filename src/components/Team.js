@@ -55,13 +55,9 @@ const Team = () => {
             <div className="bg-white dark:bg-slate-800 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
               <div className="relative rounded-2xl overflow-hidden shadow-xl">
                 <img 
-                  src="/images/director1-placeholder.jpg" 
-                  alt="Director Photo" 
+                  src="https://via.placeholder.com/500x600?text=Reverend+Geoffrey+Wanyoike" 
+                  alt="Reverend Geoffrey Wanyoike" 
                   className="w-full h-80 object-cover object-top"
-                  onError={(e) => {
-                    e.target.src = 'https://via.placeholder.com/500x600?text=Director+Photo';
-                    e.target.onerror = null;
-                  }}
                 />
               </div>
               <div className="p-6">
@@ -142,13 +138,9 @@ const Team = () => {
             <div className="bg-white dark:bg-slate-800 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
               <div className="relative">
                 <img 
-                  src="/images/TechEngineer-placeholder.jpg" 
-                  alt="Team Member Photo" 
+                  src="https://via.placeholder.com/400x500?text=Nick+Mwaura" 
+                  alt="Nick Mwaura" 
                   className="w-full h-48 object-cover object-center"
-                  onError={(e) => {
-                    e.target.src = 'https://via.placeholder.com/300x300?text=Team+Member';
-                    e.target.onerror = null;
-                  }}
                 />
               </div>
               <div className="p-5">
@@ -164,13 +156,9 @@ const Team = () => {
             <div className="bg-white dark:bg-slate-800 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
               <div className="relative">
                 <img 
-                  src="/images/team3-placeholder.jpg" 
-                  alt="Team Member Photo" 
+                  src="https://via.placeholder.com/400x500?text=Reverend+Geoffrey+Wanyoike" 
+                  alt="Reverend Geoffrey Wanyoike" 
                   className="w-full h-48 object-cover object-center"
-                  onError={(e) => {
-                    e.target.src = 'https://via.placeholder.com/300x300?text=Team+Member';
-                    e.target.onerror = null;
-                  }}
                 />
               </div>
               <div className="p-5">
