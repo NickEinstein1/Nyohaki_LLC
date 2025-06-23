@@ -15,6 +15,7 @@ const Blog = lazy(() => import('./components/Blog'));
 const BlogArticle = lazy(() => import('./components/BlogArticle'));
 const FAQ = lazy(() => import('./components/FAQ'));
 const Testimonials = lazy(() => import('./components/Testimonials'));
+const Team = lazy(() => import('./components/Team'));
 const NotFound = lazy(() => import('./components/NotFound'));
 
 function AnimatedRoutes() {
@@ -30,6 +31,7 @@ function AnimatedRoutes() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:slug" element={<BlogArticle />} />
           <Route path="/faq" element={<FAQ />} />
+          <Route path="/team" element={<Team />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>

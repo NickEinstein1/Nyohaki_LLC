@@ -1,0 +1,100 @@
+import React from 'react';
+
+const Leadership = () => {
+  return (
+    <section className="py-20 bg-gradient-to-b from-white to-blue-50 dark:from-slate-900 dark:to-slate-800">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-4xl font-bold text-center text-blue-800 dark:text-blue-200 mb-16">Our Leadership</h2>
+        
+        {/* CEO Section */}
+        <div className="flex flex-col lg:flex-row items-center gap-12 mb-16">
+          <div className="w-full lg:w-1/3">
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300">
+              <img 
+                src="/images/ceo-placeholder.jpg" 
+                alt="Juliet Wambui Kamau - CEO" 
+                className="w-full h-auto"
+                onError={(e) => {
+                  e.target.src = 'https://via.placeholder.com/400x500?text=CEO+Photo';
+                  e.target.onerror = null;
+                }}
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-blue-900/70 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300">
+                <div className="absolute bottom-0 left-0 right-0 p-6">
+                  <div className="flex justify-center space-x-4">
+                    <a href="#" className="text-white hover:text-blue-300 transition-colors">
+                      <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M20.447 20.452h-3.237v-5.569c0-1.327-.025-3.037-1.849-3.037-1.851 0-2.132 1.445-2.132 2.939v5.667h-3.238V9h3.105v1.561h.044c.434-.82 1.494-1.684 3.073-1.684 3.287 0 3.892 2.164 3.892 4.977v6.598zM5.337 7.433a1.87 1.87 0 110-3.738 1.87 1.87 0 010 3.738zm1.619 13.019H3.719V9h3.237v11.452zM22.225 0H1.771C.792 0 0 .771 0 1.723v20.549C0 23.229.792 24 1.771 24h20.451C23.2 24 24 23.229 24 22.271V1.723C24 .771 23.2 0 22.225 0z"/>
+                      </svg>
+                    </a>
+                    <a href="#" className="text-white hover:text-blue-300 transition-colors">
+                      <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M24 4.557a9.83 9.83 0 01-2.828.775 4.932 4.932 0 002.165-2.724 9.864 9.864 0 01-3.127 1.195 4.916 4.916 0 00-8.384 4.482C7.691 8.094 4.066 6.13 1.64 3.161a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.061a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.937 4.937 0 004.604 3.417 9.868 9.868 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63a9.936 9.936 0 002.46-2.548l-.047-.02z"/>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="w-full lg:w-2/3 space-y-6">
+            <div>
+              <h3 className="text-3xl font-bold text-blue-700 dark:text-blue-300 mb-2">Juliet Wambui Kamau</h3>
+              <p className="text-xl text-blue-600 dark:text-blue-400 mb-6">Chief Executive Officer</p>
+            </div>
+            <div className="prose prose-lg max-w-none text-gray-600 dark:text-gray-300">
+              <p className="mb-4">
+                Juliet Kamau is the founder of Nyohaki Consultants. She holds a Bachelor's degree in Education from the University of Nairobi and a Master's degree in Educational Management and Administration. Her extensive teaching experience spans all levels of learning in schools and colleges across Kenya, including management positions.
+              </p>
+              <p className="mb-4">
+                Beyond education, Juliet has valuable experience in the social sciences sector in the U.S., where she focused on understanding the dynamics and effects of domestic violence on various aspects of life, especially children. She also brings expertise in U.S. health systems management.
+              </p>
+              <p className="mb-4">
+                Her leadership is founded on the belief that all individuals deserve respect and dignity. Juliet's passion for community empowerment drives her to develop efficient solutions for everyday challenges, incorporating technological innovations to enhance service delivery and client satisfaction.
+              </p>
+              <p>
+                Under her guidance, Nyohaki LLC has grown into a forward-thinking organization that bridges traditional insurance principles with modern technological advancements, making insurance more accessible and beneficial for all clients.
+              </p>
+            </div>
+            <div className="mt-8 space-y-4">
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 rounded-full bg-blue-100 dark:bg-blue-900/50 flex items-center justify-center">
+                  <svg className="w-6 h-6 text-blue-600 dark:text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4 className="text-lg font-semibold text-blue-700 dark:text-blue-300">Innovative Leadership</h4>
+                  <p className="text-gray-600 dark:text-gray-400">Pioneering digital transformation in insurance</p>
+                </div>
+              </div>
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 rounded-full bg-blue-100 dark:bg-blue-900/50 flex items-center justify-center">
+                  <svg className="w-6 h-6 text-blue-600 dark:text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4 className="text-lg font-semibold text-blue-700 dark:text-blue-300">Client-First Approach</h4>
+                  <p className="text-gray-600 dark:text-gray-400">Ensuring security and satisfaction for every client</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        {/* Link to Team Page */}
+        <div className="text-center mt-24">
+          <a href="/team" className="px-6 py-3 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition font-semibold inline-flex items-center">
+            <span>Meet Our Full Team</span>
+            <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Leadership;

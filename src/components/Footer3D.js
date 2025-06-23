@@ -34,7 +34,7 @@ const Footer3D = () => (
       </div>
       <div>
         <h4 className="font-semibold mb-2">Contact</h4>
-        <p className="text-blue-100">123 Main Street<br/>City, Country</p>
+        <p className="text-blue-100">Washington, USA</p>
         <p className="text-blue-100 mt-2">info@nyohaki.com</p>
         <p className="text-blue-100 mt-1">+1 234 567 8900</p>
       </div>

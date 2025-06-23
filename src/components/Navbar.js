@@ -52,6 +52,7 @@ function Navbar() {
         <li><Link to="/" className="hover:text-blue-600 dark:hover:text-blue-400" onClick={()=>setOpen(false)}>Home</Link></li>
         <li><Link to="/services" className="hover:text-blue-600 dark:hover:text-blue-400" onClick={()=>setOpen(false)}>Services</Link></li>
         <li><Link to="/quote" className="hover:text-blue-600 dark:hover:text-blue-400" onClick={()=>setOpen(false)}>Quote</Link></li>
+        <li><Link to="/team" className="hover:text-blue-600 dark:hover:text-blue-400" onClick={()=>setOpen(false)}>Our Team</Link></li>
         <li><Link to="/blog" className="hover:text-blue-600 dark:hover:text-blue-400" onClick={()=>setOpen(false)}>Blog</Link></li>
         <li><Link to="/faq" className="hover:text-blue-600 dark:hover:text-blue-400" onClick={()=>setOpen(false)}>FAQ</Link></li>
         <li><Link to="/contact" className="hover:text-blue-600 dark:hover:text-blue-400" onClick={()=>setOpen(false)}>Contact</Link></li>

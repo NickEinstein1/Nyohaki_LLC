@@ -104,7 +104,7 @@ const ThreeHero = () => {
       </div>
       <div className="flex-1 flex flex-col items-center md:items-start justify-center mt-8 md:mt-0 z-10">
         <h1 className="text-4xl md:text-6xl font-bold text-blue-800 dark:text-blue-100 mb-4 text-center md:text-left drop-shadow-lg">Insurance, Reinvented</h1>
-        <p className="text-lg md:text-xl text-blue-700 dark:text-blue-200 text-center md:text-left max-w-2xl mb-6">Experience global protection, modern policies, and peace of mind—brought to life through our nteractive customer based service. Discover why we’re the best choice for your future.</p>
+        <p className="text-lg md:text-xl text-blue-700 dark:text-blue-200 text-center md:text-left max-w-2xl mb-6">Experience global protection, modern policies, and peace of mind—brought to life through our interactive customer based service. Discover why we’re the best choice for your future.</p>
         <div className="flex justify-center md:justify-start w-full">
           <a href="/quote" className="inline-block px-8 py-3 bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-400 text-white font-bold rounded-lg shadow-lg transition text-lg">Get a Quote</a>
         </div>
