@@ -77,7 +77,7 @@ const Careers = () => {
             </p>
             <div className="bg-white dark:bg-slate-800 rounded-lg p-4 inline-block">
               <p className="text-blue-600 dark:text-blue-400 font-semibold">
-                💡 Believe you'd be a great fit? We'd love to hear from you!
+                Believe you'd be a great fit? We'd love to hear from you!
               </p>
             </div>
           </div>
