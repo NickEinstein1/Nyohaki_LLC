@@ -235,7 +235,7 @@ const Services = () => {
                 Request a Consultation
               </button>
               <button className="px-8 py-4 bg-white/20 hover:bg-white/30 text-white font-bold rounded-xl shadow-lg text-lg tracking-wide transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-blue-300">
-                Call Us Now: (800) 555-NYOHAKI
+                Call Us Now: (253) 268-NYOHAKI
               </button>
             </div>
             <p className="mt-4 text-blue-100 text-sm text-center">Your journey to financial security starts with a conversation.</p>
