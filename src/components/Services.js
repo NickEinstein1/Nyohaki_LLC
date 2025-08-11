@@ -129,22 +129,22 @@ const Services = () => {
     'linear-gradient(135deg, #e0e7ff 0%, #f0f9ff 100%)',
     'linear-gradient(135deg, #f0fdfa 0%, #e0f2fe 100%)',
     'linear-gradient(135deg, #fef9c3 0%, #f0fdf4 100%)',
-    'linear-gradient(135deg, #f3e8ff 0%, #e0e7ff 100%)',
-    'linear-gradient(135deg, #f1f5f9 0%, #e0e7ff 100%)',
+    'linear-gradient(135deg, #f3e8ff 0%, #ddd6fe 100%)',
+    'linear-gradient(135deg, #f1f5f9 0%, #f3e8ff 100%)',
   ];
   const shadows = [
     'shadow-blue-200/80',
     'shadow-blue-100/80',
     'shadow-yellow-100/80',
-    'shadow-purple-200/80',
-    'shadow-blue-100/80',
+    'shadow-purple-300/80',
+    'shadow-purple-100/80',
   ];
   const borders = [
     'border-blue-200',
     'border-blue-100',
     'border-yellow-200',
-    'border-purple-200',
-    'border-blue-100',
+    'border-purple-300',
+    'border-purple-100',
   ];
 
   return (
@@ -154,7 +154,7 @@ const Services = () => {
       {/* Professional intro */}
       <div className="relative z-10 max-w-3xl text-center mb-8">
         <h2 className="text-4xl font-extrabold text-blue-900 dark:text-white mb-4 tracking-tight drop-shadow-lg">Our Services</h2>
-        <p className="text-lg text-blue-800 dark:text-blue-200 font-medium mb-4">NYOHAKI offers a full spectrum of insurance, risk management, financial, and analytics services to empower your future.</p>
+        <p className="text-lg text-blue-800 dark:text-blue-200 font-medium mb-4">NYOHAKI delivers comprehensive professional services including insurance solutions, financial planning, risk management, and advanced data analytics to secure and optimize your business and personal objectives.</p>
       </div>
 
       {/* Services grid */}
@@ -209,7 +209,7 @@ const Services = () => {
       {/* Testimonials component integration */}
       <Testimonials />
       {/* Enhanced Call to Action */}
-      <div className="relative z-10 py-12 px-4 bg-gradient-to-r from-blue-900 to-blue-700 rounded-3xl shadow-2xl max-w-5xl mx-auto mb-8">
+      <div className="relative z-10 py-12 px-4 bg-gradient-to-r from-blue-900 via-purple-800 to-blue-700 rounded-3xl shadow-2xl max-w-5xl mx-auto mb-8">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="text-white max-w-xl">
             <h2 className="text-3xl font-extrabold mb-4">Ready to Secure Your Future?</h2>
@@ -230,7 +230,7 @@ const Services = () => {
             <h3 className="text-2xl font-bold text-white mb-4 text-center">Schedule Your Consultation</h3>
             <div className="flex flex-col gap-4">
               <button 
-                className="px-8 py-4 bg-gradient-to-r from-green-500 to-blue-500 text-white font-extrabold rounded-xl shadow-lg text-lg tracking-wide hover:scale-105 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-blue-300 animate-pulse"
+                className="px-8 py-4 bg-gradient-to-r from-green-500 via-purple-500 to-blue-500 text-white font-extrabold rounded-xl shadow-lg text-lg tracking-wide hover:scale-105 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-purple-300 animate-pulse"
               >
                 Request a Consultation
               </button>

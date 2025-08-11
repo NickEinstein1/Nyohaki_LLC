@@ -46,7 +46,8 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="text-lg font-bold text-blue-700 mb-1">Our Location</h3>
-                <p className="text-gray-600">Washington, USA</p>
+                <p className="text-gray-600">Tacoma, Washington, USA</p>
+                <p className="text-gray-500 text-sm mt-1">Serving the Greater Puget Sound Area</p>
               </div>
             </div>
           </div>
@@ -91,10 +92,21 @@ const Contact = () => {
             <input type="text" name="name" required placeholder="Your Name" className="px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-200" />
             <input type="email" name="email" required placeholder="Your Email" className="px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-200" />
             <textarea name="message" required rows="3" placeholder="Your Message" className="px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-200"></textarea>
-            <button type="submit" className="px-6 py-2 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition font-semibold">Send Message</button>
+            <button type="submit" className="px-6 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg shadow hover:from-blue-700 hover:to-purple-700 transition-all font-semibold">Send Message</button>
           </form>
           {status && <div className={status === 'Message sent!' ? 'text-green-600' : 'text-red-600'}>{status}</div>}
-          <iframe title="Google Map" className="rounded-lg mt-4" width="100%" height="200" frameBorder="0" style={{border:0}} src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC-EXAMPLE&q=Washington,USA" allowFullScreen aria-hidden="false" tabIndex="0"></iframe>
+          <div className="mt-4 rounded-lg overflow-hidden shadow-lg border border-gray-200">
+            <iframe
+              title="NYOHAKI Location - Tacoma, Washington"
+              className="w-full h-64"
+              frameBorder="0"
+              style={{border:0}}
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d172186.87865287836!2d-122.64462!3d47.2529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490493b442c5b0b%3A0x94d50f5ddc7f7c8!2sTacoma%2C%20WA%2C%20USA!5e0!3m2!1sen!2sus!4v1640000000000!5m2!1sen!2sus"
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
         </div>
       </div>
     </section>

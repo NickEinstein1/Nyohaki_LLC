@@ -79,8 +79,8 @@ const Quote = () => {
 
   return (
     <section id="quote" className="max-w-2xl mx-auto py-16 px-4">
-      <h1 className="text-4xl font-extrabold text-blue-900 mb-2 text-center">Request Your Personalized Insurance or Annuity Quote</h1>
-      <p className="text-lg text-blue-700 mb-8 text-center">Fill out the secure form below to receive a customized quote for annuities or any insurance policy. Our team will review your information and get back to you promptly.</p>
+      <h1 className="text-4xl font-extrabold text-blue-900 mb-2 text-center">Request Your Personalized Service Quote</h1>
+      <p className="text-lg text-blue-700 mb-8 text-center">Fill out the secure form below to receive a customized quote for our professional services including insurance, financial planning, risk management, or data analytics. Our team will review your information and get back to you promptly.</p>
       <form className="bg-white rounded-xl shadow-lg p-8 flex flex-col gap-4" onSubmit={handleSubmit}>
         <div className="grid md:grid-cols-2 gap-4">
           <div className="flex flex-col">
@@ -130,15 +130,18 @@ const Quote = () => {
         </div>
 
         <div className="flex flex-col mt-4">
-          <label className="font-bold text-blue-900 dark:text-black font-bold tracking-wide text-lg mb-2 mt-2 uppercase">Type of Coverage <span className="text-red-500">*</span></label>
+          <label className="font-bold text-blue-900 dark:text-black font-bold tracking-wide text-lg mb-2 mt-2 uppercase">Type of Service <span className="text-red-500">*</span></label>
           <select name="policy" value={form.policy} onChange={handleChange} required className="px-3 py-2 border rounded-lg focus:ring-2 focus:ring-blue-200 dark:bg-slate-700 dark:text-white">
-            <option value="">Select Policy Type</option>
+            <option value="">Select Service Type</option>
             <option value="annuities">Annuities</option>
             <option value="iul">Indexed Universal Life (IUL)</option>
             <option value="health">Health Insurance</option>
             <option value="auto">Auto Insurance</option>
             <option value="home">Home Insurance</option>
             <option value="life">Life Insurance</option>
+            <option value="financial">Financial Planning</option>
+            <option value="risk">Risk Management</option>
+            <option value="analytics">Data Analytics</option>
           </select>
         </div>
 
@@ -172,7 +175,7 @@ const Quote = () => {
           <textarea name="comments" value={form.comments} onChange={handleChange} rows="3" required placeholder="Please enter any additional information or questions here" className="px-3 py-2 border rounded-lg focus:ring-2 focus:ring-blue-200"></textarea>
         </div>
 
-        <button type="submit" className="px-6 py-2 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition font-semibold mt-2" disabled={loading}>{loading ? 'Processing...' : 'Request Quote'}</button>
+        <button type="submit" className="px-6 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg shadow hover:from-blue-700 hover:to-purple-700 transition-all font-semibold mt-2" disabled={loading}>{loading ? 'Processing...' : 'Request Quote'}</button>
         {loading && <div className="flex justify-center mt-2"><span className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600"></span></div>}
         {success && <div className="text-green-600 font-semibold text-center">Quote request sent!</div>}
       </form>

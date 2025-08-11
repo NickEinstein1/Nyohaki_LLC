@@ -27,10 +27,10 @@ function Navbar() {
   const [dark, setDark] = useDarkMode();
   return (
     <nav className={`sticky top-0 z-50 bg-white dark:bg-slate-900 shadow flex items-center justify-between px-6 py-4`}>
-      <div className="font-extrabold text-blue-800 dark:text-blue-200 text-2xl tracking-widest">NYOHAKI</div>
+      <div className="font-extrabold bg-gradient-to-r from-blue-800 to-purple-600 dark:from-blue-200 dark:to-purple-400 bg-clip-text text-transparent text-2xl tracking-widest">NYOHAKI</div>
       <div className="flex items-center gap-4">
         <button
-          className="rounded-full p-2 bg-blue-100 dark:bg-slate-800 hover:bg-blue-200 dark:hover:bg-slate-700 transition"
+          className="rounded-full p-2 bg-gradient-to-r from-blue-100 to-purple-100 dark:from-slate-800 dark:to-purple-900/30 hover:from-blue-200 hover:to-purple-200 dark:hover:from-slate-700 dark:hover:to-purple-800/30 transition"
           aria-label={dark ? 'Switch to light mode' : 'Switch to dark mode'}
           onClick={() => setDark(d => !d)}
         >
@@ -49,13 +49,13 @@ function Navbar() {
         </button>
       </div>
       <ul className={`md:flex gap-8 font-semibold text-blue-700 dark:text-blue-200 ${open ? 'block' : 'hidden'} md:block`}>
-        <li><Link to="/" className="hover:text-blue-600 dark:hover:text-blue-400" onClick={()=>setOpen(false)}>Home</Link></li>
-        <li><Link to="/services" className="hover:text-blue-600 dark:hover:text-blue-400" onClick={()=>setOpen(false)}>Services</Link></li>
-        <li><Link to="/quote" className="hover:text-blue-600 dark:hover:text-blue-400" onClick={()=>setOpen(false)}>Quote</Link></li>
-        <li><Link to="/team" className="hover:text-blue-600 dark:hover:text-blue-400" onClick={()=>setOpen(false)}>Our Team</Link></li>
-        <li><Link to="/blog" className="hover:text-blue-600 dark:hover:text-blue-400" onClick={()=>setOpen(false)}>Blog</Link></li>
-        <li><Link to="/faq" className="hover:text-blue-600 dark:hover:text-blue-400" onClick={()=>setOpen(false)}>FAQ</Link></li>
-        <li><Link to="/contact" className="hover:text-blue-600 dark:hover:text-blue-400" onClick={()=>setOpen(false)}>Contact</Link></li>
+        <li><Link to="/" className="hover:text-purple-600 dark:hover:text-purple-400 transition-colors" onClick={()=>setOpen(false)}>Home</Link></li>
+        <li><Link to="/services" className="hover:text-purple-600 dark:hover:text-purple-400 transition-colors" onClick={()=>setOpen(false)}>Services</Link></li>
+        <li><Link to="/quote" className="hover:text-purple-600 dark:hover:text-purple-400 transition-colors" onClick={()=>setOpen(false)}>Quote</Link></li>
+        <li><Link to="/team" className="hover:text-purple-600 dark:hover:text-purple-400 transition-colors" onClick={()=>setOpen(false)}>Our Team</Link></li>
+        <li><Link to="/blog" className="hover:text-purple-600 dark:hover:text-purple-400 transition-colors" onClick={()=>setOpen(false)}>Blog</Link></li>
+        <li><Link to="/faq" className="hover:text-purple-600 dark:hover:text-purple-400 transition-colors" onClick={()=>setOpen(false)}>FAQ</Link></li>
+        <li><Link to="/contact" className="hover:text-purple-600 dark:hover:text-purple-400 transition-colors" onClick={()=>setOpen(false)}>Contact</Link></li>
       </ul>
     </nav>
   );

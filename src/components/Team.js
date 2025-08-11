@@ -2,10 +2,10 @@ import React from 'react';
 
 const Team = () => {
   return (
-    <section className="py-20 bg-gradient-to-b from-white to-blue-50 dark:from-slate-900 dark:to-slate-800">
+    <section className="py-20 bg-gradient-to-br from-white via-purple-50/30 to-blue-50 dark:from-slate-900 dark:via-purple-900/10 dark:to-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-blue-800 dark:text-blue-200 mb-4">Our Team</h2>
+          <h2 className="text-4xl font-bold bg-gradient-to-r from-blue-800 to-purple-600 dark:from-blue-200 dark:to-purple-400 bg-clip-text text-transparent mb-4">Our Team</h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
             Meet the talented professionals behind Nyohaki's success. Our diverse team brings together expertise in insurance, technology, and customer service.
           </p>
@@ -55,16 +55,16 @@ const Team = () => {
             <div className="bg-white dark:bg-slate-800 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
               <div className="relative rounded-2xl overflow-hidden shadow-xl">
                 <img 
-                  src="https://via.placeholder.com/500x600?text=Reverend+Geoffrey+Wanyoike" 
+                  src="https://via.placeholder.com/500x600?text=Geoffrey+Wanyoike" 
                   alt="Reverend Geoffrey Wanyoike" 
                   className="w-full h-80 object-cover object-top"
                 />
               </div>
               <div className="p-6">
-                <h4 className="text-xl font-bold text-blue-700 dark:text-blue-300 mb-1">Reverend Geoffrey Wanyoike </h4>
-                <p className="text-blue-600 dark:text-blue-400 mb-4">Chief Operations Officer & Co-Director</p>
+                <h4 className="text-xl font-bold text-blue-700 dark:text-blue-300 mb-1">Geoffrey Wanyoike </h4>
+                <p className="text-blue-600 dark:text-blue-400 mb-4">Director</p>
                 <p className="text-gray-600 dark:text-gray-300 mb-4">
-                  With extensive experience in mentorship and business, Reverend Wanyoike leads operational excellence initiatives, ensuring smooth service delivery across all channels.
+                  With extensive experience in mentorship and business, Geoffrey Wanyoike leads operational excellence initiatives, ensuring smooth service delivery across all channels.
                 </p>
                 <div className="flex space-x-3 pt-2">
                   <a href="#" className="text-blue-500 hover:text-blue-700 dark:hover:text-blue-300">
@@ -134,12 +134,12 @@ const Team = () => {
               </div>
             </div>
             
-            {/* Team Member 2 */}
+            {/* Team Member 2 - Nick Mwaura - TO BE ADDED LATER
             <div className="bg-white dark:bg-slate-800 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
               <div className="relative">
-                <img 
-                  src="https://via.placeholder.com/400x500?text=Nick+Mwaura" 
-                  alt="Nick Mwaura" 
+                <img
+                  src="https://via.placeholder.com/400x500?text=Nick+Mwaura"
+                  alt="Nick Mwaura"
                   className="w-full h-48 object-cover object-center"
                 />
               </div>
@@ -151,6 +151,7 @@ const Team = () => {
                 </p>
               </div>
             </div>
+            */}
             
             {/* Team Member 3 - TO BE ADDED LATER
             <div className="bg-white dark:bg-slate-800 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">

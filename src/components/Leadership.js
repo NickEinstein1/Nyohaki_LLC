@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Leadership = () => {
   return (
@@ -85,12 +86,12 @@ const Leadership = () => {
         
         {/* Link to Team Page */}
         <div className="text-center mt-24">
-          <a href="/team" className="px-6 py-3 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition font-semibold inline-flex items-center">
+          <Link to="/team" className="px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg shadow hover:from-blue-700 hover:to-purple-700 transition-all font-semibold inline-flex items-center">
             <span>Meet Our Full Team</span>
             <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
             </svg>
-          </a>
+          </Link>
         </div>
       </div>
     </section>
