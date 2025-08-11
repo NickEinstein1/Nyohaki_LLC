@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Team = () => {
   return (
@@ -203,9 +204,9 @@ const Team = () => {
           <p className="text-gray-700 dark:text-gray-300 mb-6 max-w-2xl mx-auto">
             We're always looking for talented individuals who are passionate about transforming the insurance industry and creating exceptional experiences for our clients.
           </p>
-          <a href="/contact" className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition font-semibold">
-            Contact Us About Opportunities
-          </a>
+          <Link to="/careers" className="inline-block px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg shadow hover:from-blue-700 hover:to-purple-700 transition-all font-semibold">
+            Explore Career Opportunities
+          </Link>
         </div>
       </div>
     </section>

@@ -1,4 +1,5 @@
 import React, { useRef, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import * as THREE from 'three';
 
 function hasWebGL() {
@@ -106,7 +107,7 @@ const ThreeHero = () => {
         <h1 className="text-4xl md:text-6xl font-bold text-blue-800 dark:text-blue-100 mb-4 text-center md:text-left drop-shadow-lg">Professional Services, <span className="text-purple-600 dark:text-purple-400">Reimagined</span></h1>
         <p className="text-lg md:text-xl text-blue-700 dark:text-blue-200 text-center md:text-left max-w-2xl mb-6">Comprehensive insurance, financial planning, risk management, and data analytics solutions. Experience professional excellence through innovative technology and personalized service tailored to your business and personal needs—brought to life through our interactive customer based service. Discover why we’re the best choice for your future.</p>
         <div className="flex justify-center md:justify-start w-full">
-          <a href="/quote" className="inline-block px-8 py-3 bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-400 text-white font-bold rounded-lg shadow-lg transition text-lg">Get Started</a>
+          <Link to="/quote" className="inline-block px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-bold rounded-lg shadow-lg transition-all text-lg">Get Started</Link>
         </div>
       </div>
       {/* Featured Services Section */}
@@ -114,12 +115,12 @@ const ThreeHero = () => {
         <div className="flex-1 max-w-xl bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-8 flex flex-col items-center md:items-start mb-6 md:mb-0">
           <h2 className="text-2xl font-bold text-blue-700 dark:text-blue-200 mb-2">Risk Management & Analytics</h2>
           <p className="text-gray-700 dark:text-gray-100 mb-4">Protect your business with comprehensive risk assessment, mitigation strategies, and advanced data analytics. Our experts help you identify vulnerabilities and implement solutions to safeguard your operations and assets.</p>
-          <a href="/services" className="inline-block mt-2 px-6 py-2 bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-400 text-white font-semibold rounded-lg shadow transition">Explore Risk Solutions</a>
+          <Link to="/services" className="inline-block mt-2 px-6 py-2 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold rounded-lg shadow transition-all">Explore Risk Solutions</Link>
         </div>
         <div className="flex-1 max-w-xl bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-8 flex flex-col items-center md:items-start">
           <h2 className="text-2xl font-bold text-blue-700 dark:text-blue-200 mb-2">Financial Planning</h2>
           <p className="text-gray-700 dark:text-gray-100 mb-4">Build wealth and secure your financial future with personalized planning strategies. From retirement planning to investment management, our certified advisors provide comprehensive solutions tailored to your goals.</p>
-          <a href="/services" className="inline-block mt-2 px-6 py-2 bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-400 text-white font-semibold rounded-lg shadow transition">Start Planning Today</a>
+          <Link to="/services" className="inline-block mt-2 px-6 py-2 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold rounded-lg shadow transition-all">Start Planning Today</Link>
         </div>
       </div>
     </section>

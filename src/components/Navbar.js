@@ -53,6 +53,7 @@ function Navbar() {
         <li><Link to="/services" className="hover:text-purple-600 dark:hover:text-purple-400 transition-colors" onClick={()=>setOpen(false)}>Services</Link></li>
         <li><Link to="/quote" className="hover:text-purple-600 dark:hover:text-purple-400 transition-colors" onClick={()=>setOpen(false)}>Quote</Link></li>
         <li><Link to="/team" className="hover:text-purple-600 dark:hover:text-purple-400 transition-colors" onClick={()=>setOpen(false)}>Our Team</Link></li>
+        <li><Link to="/careers" className="hover:text-purple-600 dark:hover:text-purple-400 transition-colors" onClick={()=>setOpen(false)}>Careers</Link></li>
         <li><Link to="/blog" className="hover:text-purple-600 dark:hover:text-purple-400 transition-colors" onClick={()=>setOpen(false)}>Blog</Link></li>
         <li><Link to="/faq" className="hover:text-purple-600 dark:hover:text-purple-400 transition-colors" onClick={()=>setOpen(false)}>FAQ</Link></li>
         <li><Link to="/contact" className="hover:text-purple-600 dark:hover:text-purple-400 transition-colors" onClick={()=>setOpen(false)}>Contact</Link></li>
