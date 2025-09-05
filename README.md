@@ -1,4 +1,4 @@
-# Nyohaki Insurance & Consultancy
+# Nyohaki GROUP 
 
 NYOHAKI is a comprehensive professional services firm specializing in insurance, financial planning, risk management, and data analytics. Our mission is to empower individuals and businesses with innovative solutions, expert guidance, and cutting-edge technology for a secure and prosperous future.
 
