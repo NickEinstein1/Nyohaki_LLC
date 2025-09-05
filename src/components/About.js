@@ -10,8 +10,8 @@ const About = () => (
           <h3 className="font-bold text-blue-700 mb-2">Our Mission</h3>
           <p className="text-gray-600">To deliver comprehensive professional services that secure and enhance our clients' financial well-being through innovative solutions and expert guidance.</p>
         </div>
-        <div className="bg-gradient-to-br from-white to-purple-50 rounded-xl shadow-lg border border-purple-100 p-6 hover:shadow-xl transition-shadow">
-          <h3 className="font-bold text-purple-700 mb-2">Our Values</h3>
+        <div className="bg-gradient-to-br from-white to-amber-50 rounded-xl shadow-lg border border-amber-100 p-6 hover:shadow-xl transition-shadow">
+          <h3 className="font-bold text-amber-700 mb-2">Our Values</h3>
           <p className="text-gray-600">Integrity, excellence, innovation, and client-focused solutions across all our professional service areas.</p>
         </div>
         <div className="bg-gradient-to-br from-white to-blue-50 rounded-xl shadow-lg border border-blue-100 p-6 hover:shadow-xl transition-shadow">

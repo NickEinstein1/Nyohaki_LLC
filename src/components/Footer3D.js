@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Footer3D = () => (
-  <footer className="bg-gradient-to-r from-blue-900 via-purple-900 to-blue-900 text-white py-10 w-full">
+  <footer className="bg-gradient-to-r from-blue-900 via-amber-800 to-blue-900 text-white py-10 w-full">
     <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-4 gap-8">
       <div>
         <h3 className="font-extrabold text-2xl mb-2 tracking-widest text-white">NYOHAKI</h3>
@@ -29,7 +29,7 @@ const Footer3D = () => (
         <h4 className="font-semibold mb-2">Newsletter</h4>
         <form className="flex flex-col gap-2" onSubmit={e=>{e.preventDefault();alert('Subscribed!')}}>
           <input type="email" required placeholder="Your email" className="px-3 py-2 rounded-lg text-dark focus:outline-none focus:ring-2 focus:ring-blue-400" />
-          <button type="submit" className="mt-1 px-5 py-2 bg-gradient-to-r from-blue-600 via-purple-600 to-blue-400 text-white font-bold rounded-lg shadow hover:scale-105 transition-transform">Subscribe</button>
+          <button type="submit" className="mt-1 px-5 py-2 bg-gradient-to-r from-blue-600 via-amber-500 to-blue-400 text-white font-bold rounded-lg shadow hover:scale-105 transition-transform">Subscribe</button>
         </form>
       </div>
       <div>

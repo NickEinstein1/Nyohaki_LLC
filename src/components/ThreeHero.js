@@ -36,7 +36,7 @@ const ThreeHero = () => {
     shield.position.set(0, 0.2, 0);
     scene.add(shield);
     // Floating 3D Icons (insurance types)
-    const iconColors = ['#10b981', '#8b5cf6', '#3b82f6', '#f43f5e'];
+    const iconColors = ['#10b981', '#d4af37', '#3b82f6', '#f59e0b'];
     const iconShapes = [
       new THREE.SphereGeometry(0.18, 24, 24),    // Health (green)
       new THREE.BoxGeometry(0.22, 0.22, 0.22),   // Home (orange)
@@ -99,28 +99,28 @@ const ThreeHero = () => {
     };
   }, []);
   return (
-    <section id="home" className="relative flex flex-col md:flex-row items-center justify-center min-h-[60vh] bg-gradient-to-br from-blue-100 via-purple-50 to-white dark:from-slate-900 dark:via-purple-900/20 dark:to-slate-800 py-10 px-2 md:px-8">
+    <section id="home" className="relative flex flex-col md:flex-row items-center justify-center min-h-[60vh] bg-gradient-to-br from-blue-100 via-amber-50 to-white dark:from-slate-900 dark:via-amber-900/20 dark:to-slate-800 py-10 px-2 md:px-8">
       <div className="flex-shrink-0 mx-auto md:mx-0 md:mr-10" style={{width:'380px',height:'340px',maxWidth:'100%'}}>
         <div ref={ref} aria-hidden="true" className="rounded-xl shadow-xl dark:shadow-blue-900/40 w-full h-full"></div>
       </div>
       <div className="flex-1 flex flex-col items-center md:items-start justify-center mt-8 md:mt-0 z-10">
-        <h1 className="text-4xl md:text-6xl font-bold text-blue-800 dark:text-blue-100 mb-4 text-center md:text-left drop-shadow-lg">Professional Services, <span className="text-purple-600 dark:text-purple-400">Reimagined</span></h1>
+        <h1 className="text-4xl md:text-6xl font-bold text-blue-800 dark:text-blue-100 mb-4 text-center md:text-left drop-shadow-lg">Professional Services, <span className="text-amber-600 dark:text-amber-400">Reimagined</span></h1>
         <p className="text-lg md:text-xl text-blue-700 dark:text-blue-200 text-center md:text-left max-w-2xl mb-6">Comprehensive insurance, financial planning, risk management, and data analytics solutions. Experience professional excellence through innovative technology and personalized service tailored to your business and personal needs—brought to life through our interactive customer based service. Discover why we’re the best choice for your future.</p>
         <div className="flex justify-center md:justify-start w-full">
-          <Link to="/quote" className="inline-block px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-bold rounded-lg shadow-lg transition-all text-lg">Get Started</Link>
+          <Link to="/quote" className="inline-block px-8 py-3 bg-gradient-to-r from-blue-600 to-amber-500 hover:from-blue-700 hover:to-amber-600 text-white font-bold rounded-lg shadow-lg transition-all text-lg">Get Started</Link>
         </div>
       </div>
       {/* Featured Services Section */}
-      <div className="w-full bg-gradient-to-r from-blue-50 via-purple-50 to-blue-100 dark:from-slate-800 dark:via-purple-900/10 dark:to-slate-900 py-10 px-4 md:px-12 flex flex-col md:flex-row items-center justify-center gap-8 mt-8">
+      <div className="w-full bg-gradient-to-r from-blue-50 via-amber-50 to-blue-100 dark:from-slate-800 dark:via-amber-900/10 dark:to-slate-900 py-10 px-4 md:px-12 flex flex-col md:flex-row items-center justify-center gap-8 mt-8">
         <div className="flex-1 max-w-xl bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-8 flex flex-col items-center md:items-start mb-6 md:mb-0">
           <h2 className="text-2xl font-bold text-blue-700 dark:text-blue-200 mb-2">Risk Management & Analytics</h2>
           <p className="text-gray-700 dark:text-gray-100 mb-4">Protect your business with comprehensive risk assessment, mitigation strategies, and advanced data analytics. Our experts help you identify vulnerabilities and implement solutions to safeguard your operations and assets.</p>
-          <Link to="/services" className="inline-block mt-2 px-6 py-2 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold rounded-lg shadow transition-all">Explore Risk Solutions</Link>
+          <Link to="/services" className="inline-block mt-2 px-6 py-2 bg-gradient-to-r from-blue-600 to-amber-500 hover:from-blue-700 hover:to-amber-600 text-white font-semibold rounded-lg shadow transition-all">Explore Risk Solutions</Link>
         </div>
         <div className="flex-1 max-w-xl bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-8 flex flex-col items-center md:items-start">
           <h2 className="text-2xl font-bold text-blue-700 dark:text-blue-200 mb-2">Financial Planning</h2>
           <p className="text-gray-700 dark:text-gray-100 mb-4">Build wealth and secure your financial future with personalized planning strategies. From retirement planning to investment management, our certified advisors provide comprehensive solutions tailored to your goals.</p>
-          <Link to="/services" className="inline-block mt-2 px-6 py-2 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold rounded-lg shadow transition-all">Start Planning Today</Link>
+          <Link to="/services" className="inline-block mt-2 px-6 py-2 bg-gradient-to-r from-blue-600 to-amber-500 hover:from-blue-700 hover:to-amber-600 text-white font-semibold rounded-lg shadow transition-all">Start Planning Today</Link>
         </div>
       </div>
     </section>

@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 
 const Team = () => {
   return (
-    <section className="py-20 bg-gradient-to-br from-white via-purple-50/30 to-blue-50 dark:from-slate-900 dark:via-purple-900/10 dark:to-slate-800">
+    <section className="py-20 bg-gradient-to-br from-white via-amber-50/30 to-blue-50 dark:from-slate-900 dark:via-amber-900/10 dark:to-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold bg-gradient-to-r from-blue-800 to-purple-600 dark:from-blue-200 dark:to-purple-400 bg-clip-text text-transparent mb-4">Our Team</h2>
+          <h2 className="text-4xl font-bold bg-gradient-to-r from-blue-800 to-amber-600 dark:from-blue-200 dark:to-amber-400 bg-clip-text text-transparent mb-4">Our Team</h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
             Meet the talented professionals behind Nyohaki's success. Our diverse team brings together expertise in insurance, technology, and customer service.
           </p>
@@ -57,7 +57,7 @@ const Team = () => {
               <div className="relative rounded-2xl overflow-hidden shadow-xl">
                 <img 
                   src="https://via.placeholder.com/500x600?text=Geoffrey+Wanyoike" 
-                  alt="Reverend Geoffrey Wanyoike" 
+                  alt="Geoffrey Wanyoike" 
                   className="w-full h-80 object-cover object-top"
                 />
               </div>
@@ -204,7 +204,7 @@ const Team = () => {
           <p className="text-gray-700 dark:text-gray-300 mb-6 max-w-2xl mx-auto">
             We're always looking for talented individuals who are passionate about transforming the insurance industry and creating exceptional experiences for our clients.
           </p>
-          <Link to="/careers" className="inline-block px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg shadow hover:from-blue-700 hover:to-purple-700 transition-all font-semibold">
+          <Link to="/careers" className="inline-block px-6 py-3 bg-gradient-to-r from-blue-600 to-amber-500 text-white rounded-lg shadow hover:from-blue-700 hover:to-amber-600 transition-all font-semibold">
             Explore Career Opportunities
           </Link>
         </div>

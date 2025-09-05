@@ -175,7 +175,7 @@ const Quote = () => {
           <textarea name="comments" value={form.comments} onChange={handleChange} rows="3" required placeholder="Please enter any additional information or questions here" className="px-3 py-2 border rounded-lg focus:ring-2 focus:ring-blue-200"></textarea>
         </div>
 
-        <button type="submit" className="px-6 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg shadow hover:from-blue-700 hover:to-purple-700 transition-all font-semibold mt-2" disabled={loading}>{loading ? 'Processing...' : 'Request Quote'}</button>
+        <button type="submit" className="px-6 py-2 bg-gradient-to-r from-blue-600 to-amber-500 text-white rounded-lg shadow hover:from-blue-700 hover:to-amber-600 transition-all font-semibold mt-2" disabled={loading}>{loading ? 'Processing...' : 'Request Quote'}</button>
         {loading && <div className="flex justify-center mt-2"><span className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600"></span></div>}
         {success && <div className="text-green-600 font-semibold text-center">Quote request sent!</div>}
       </form>

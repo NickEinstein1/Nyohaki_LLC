@@ -14,9 +14,10 @@ module.exports = {
         secondary: '#f1f5f9',
         accent: '#0ea5e9',
         dark: '#1e293b',
-        'purple-primary': '#8b5cf6',
-        'purple-secondary': '#a78bfa',
-        'purple-light': '#f3e8ff',
+        'gold-primary': '#d4af37',
+        'gold-secondary': '#f7d794',
+        'gold-light': '#fef7e0',
+        'gold-dark': '#b8860b',
       },
       animation: {
         'spin-slow': 'spin 3s linear infinite',

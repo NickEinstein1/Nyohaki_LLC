@@ -51,11 +51,11 @@ const Careers = () => {
   };
 
   return (
-    <section className="min-h-screen bg-gradient-to-br from-white via-purple-50/30 to-blue-50 dark:from-slate-900 dark:via-purple-900/10 dark:to-slate-800 py-20">
+    <section className="min-h-screen bg-gradient-to-br from-white via-amber-50/30 to-blue-50 dark:from-slate-900 dark:via-amber-900/10 dark:to-slate-800 py-20">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-800 to-purple-600 dark:from-blue-200 dark:to-purple-400 bg-clip-text text-transparent mb-6">
+          <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-800 to-amber-600 dark:from-blue-200 dark:to-amber-400 bg-clip-text text-transparent mb-6">
             Join Our Team
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto mb-8">
@@ -64,9 +64,9 @@ const Careers = () => {
         </div>
 
         {/* Current Status */}
-        <div className="bg-gradient-to-r from-blue-100 via-purple-100/50 to-blue-50 dark:from-slate-800 dark:via-purple-900/20 dark:to-slate-700 rounded-2xl p-8 mb-12 border border-blue-200 dark:border-purple-800/30">
+        <div className="bg-gradient-to-r from-blue-100 via-amber-100/50 to-blue-50 dark:from-slate-800 dark:via-amber-900/20 dark:to-slate-700 rounded-2xl p-8 mb-12 border border-blue-200 dark:border-amber-800/30">
           <div className="text-center">
-            <div className="w-16 h-16 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
+            <div className="w-16 h-16 bg-gradient-to-r from-blue-600 to-amber-500 rounded-full flex items-center justify-center mx-auto mb-4">
               <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2-2v2m8 0V6a2 2 0 012 2v6a2 2 0 01-2 2H8a2 2 0 01-2-2V8a2 2 0 012-2V6"></path>
               </svg>
@@ -98,12 +98,12 @@ const Careers = () => {
             </div>
 
             <div className="bg-white dark:bg-slate-800 rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow">
-              <div className="w-12 h-12 bg-purple-100 dark:bg-purple-900/50 rounded-lg flex items-center justify-center mb-4">
-                <svg className="w-6 h-6 text-purple-600 dark:text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="w-12 h-12 bg-amber-100 dark:bg-amber-900/50 rounded-lg flex items-center justify-center mb-4">
+                <svg className="w-6 h-6 text-amber-600 dark:text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
                 </svg>
               </div>
-              <h3 className="text-lg font-bold text-purple-700 dark:text-purple-300 mb-2">Collaborative Culture</h3>
+              <h3 className="text-lg font-bold text-amber-700 dark:text-amber-300 mb-2">Collaborative Culture</h3>
               <p className="text-gray-600 dark:text-gray-300">Join a diverse team of professionals who value collaboration and mutual growth.</p>
             </div>
 
@@ -137,7 +137,7 @@ const Careers = () => {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent dark:bg-slate-700 dark:text-white"
+                  className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-transparent dark:bg-slate-700 dark:text-white"
                   placeholder="Your full name"
                 />
               </div>
@@ -223,7 +223,7 @@ const Careers = () => {
                 name="resume"
                 onChange={handleChange}
                 accept=".pdf,.doc,.docx"
-                className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent dark:bg-slate-700 dark:text-white file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-sm file:font-semibold file:bg-purple-50 file:text-purple-700 hover:file:bg-purple-100"
+                className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-transparent dark:bg-slate-700 dark:text-white file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-sm file:font-semibold file:bg-amber-50 file:text-amber-700 hover:file:bg-amber-100"
               />
               <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
                 Accepted formats: PDF, DOC, DOCX (Max 5MB)
@@ -248,7 +248,7 @@ const Careers = () => {
             <div className="text-center">
               <button
                 type="submit"
-                className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold rounded-lg shadow-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300 text-lg"
+                className="px-8 py-4 bg-gradient-to-r from-blue-600 to-amber-500 text-white font-bold rounded-lg shadow-lg hover:from-blue-700 hover:to-amber-600 transition-all duration-300 text-lg"
               >
                 Submit Application
               </button>
