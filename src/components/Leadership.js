@@ -45,7 +45,7 @@ const Leadership = () => {
             </div>
             <div className="prose prose-lg max-w-none text-gray-600 dark:text-gray-300">
               <p className="mb-4">
-                Juliet Kamau is the founder of Nyohaki Consultants. She holds a Bachelor's degree in Education from the University of Nairobi and a Master's degree in Educational Management and Administration. Her extensive teaching experience spans all levels of learning in schools and colleges across Kenya, including management positions.
+                Juliet Kamau is the founder of NYOHAKI. She holds a Bachelor's degree in Education from the University of Nairobi and a Master's degree in Educational Management and Administration. Her extensive teaching experience spans all levels of learning in schools and colleges across Kenya, including management positions.
               </p>
               <p className="mb-4">
                 Beyond education, Juliet has valuable experience in the social sciences sector in the U.S., where she focused on understanding the dynamics and effects of domestic violence on various aspects of life, especially children. She also brings expertise in U.S. health systems management.
