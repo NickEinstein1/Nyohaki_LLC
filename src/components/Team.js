@@ -25,7 +25,7 @@ const Team = () => {
                     <img
                       src="/images/ceo-placeholder.jpg"
                       alt="Juliet Wambui Kamau - CEO"
-                      className="w-full h-80 lg:h-full object-cover object-center"
+                      className="w-full h-96 lg:h-80 xl:h-96 object-cover object-center"
                       onError={(e) => {
                         e.target.src = 'https://via.placeholder.com/400x500?text=Juliet+Kamau';
                         e.target.onerror = null;
@@ -103,16 +103,16 @@ const Team = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
             {/* Director 1 */}
             <div className="bg-white dark:bg-slate-800 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
-              <div className="relative rounded-2xl overflow-hidden shadow-xl">
-                <img 
-                  src="https://via.placeholder.com/500x600?text=Geoffrey+Wanyoike" 
-                  alt="Geoffrey Wanyoike" 
-                  className="w-full h-80 object-cover object-top"
+              <div className="relative overflow-hidden">
+                <img
+                  src="https://via.placeholder.com/400x300?text=Geoffrey+Wanyoike"
+                  alt="Geoffrey Wanyoike"
+                  className="w-full h-64 object-cover object-center"
                 />
               </div>
               <div className="p-6">
-                <h4 className="text-xl font-bold text-blue-700 dark:text-blue-300 mb-1">Geoffrey Wanyoike </h4>
-                <p className="text-blue-600 dark:text-blue-400 mb-4">Director</p>
+                <h4 className="text-xl font-bold text-blue-700 dark:text-blue-300 mb-2">Geoffrey Wanyoike</h4>
+                <p className="text-amber-600 dark:text-amber-400 font-semibold mb-4">Director</p>
                 <p className="text-gray-600 dark:text-gray-300 mb-4">
                   With extensive experience in mentorship and business, Geoffrey Wanyoike leads operational excellence initiatives, ensuring smooth service delivery across all channels.
                 </p>
@@ -156,28 +156,28 @@ const Team = () => {
             </div>
           </div>
         </div>
-        
+
         {/* Department Leads */}
         <div className="mb-20">
-          <h3 className="text-2xl font-bold text-blue-700 dark:text-blue-300 mb-8 text-center">Department Leads</h3>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <h3 className="text-3xl font-bold text-blue-700 dark:text-blue-300 mb-12 text-center">Department Leads</h3>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {/* Team Member 1 */}
             <div className="bg-white dark:bg-slate-800 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
-              <div className="relative rounded-2xl overflow-hidden shadow-xl">
-                <img 
-                  src="/images/DataEngineer-placeholder.jpg" 
-                  alt="Samuel Wanyoike - Data Engineering Head" 
-                  className="w-full h-64 object-cover object-top"
+              <div className="relative overflow-hidden">
+                <img
+                  src="/images/DataEngineer-placeholder.jpg"
+                  alt="Samuel Wanyoike - Data Engineering Head"
+                  className="w-full h-64 object-cover object-center"
                   onError={(e) => {
-                    e.target.src = 'https://via.placeholder.com/400x500?text=Samuel+Wanyoike';
+                    e.target.src = 'https://via.placeholder.com/400x300?text=Samuel+Wanyoike';
                     e.target.onerror = null;
                   }}
                 />
               </div>
-              <div className="p-5">
-                <h4 className="text-lg font-bold text-blue-700 dark:text-blue-300 mb-1">Samuel Wanyoike</h4>
-                <p className="text-blue-600 dark:text-blue-400 mb-3">Head of Data Engineering,Research and Development</p>
+              <div className="p-6">
+                <h4 className="text-xl font-bold text-blue-700 dark:text-blue-300 mb-2">Samuel Wanyoike</h4>
+                <p className="text-amber-600 dark:text-amber-400 font-semibold mb-4">Head of Data Engineering & Research</p>
                 <p className="text-gray-600 dark:text-gray-300 text-sm">
                   Samuel is a seasoned data engineer with expertise in building scalable data pipelines and optimizing data processing workflows.
                 </p>
