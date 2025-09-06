@@ -80,7 +80,7 @@ const Quote = () => {
   return (
     <section id="quote" className="max-w-2xl mx-auto py-16 px-4">
       <h1 className="text-4xl font-extrabold text-blue-900 mb-2 text-center">Request Your Personalized Service Quote</h1>
-      <p className="text-lg text-blue-700 mb-8 text-center">Fill out the secure form below to receive a customized quote for our professional services including insurance, financial planning, risk management, or data analytics. Our team will review your information and get back to you promptly.</p>
+      <p className="text-lg text-blue-700 mb-8 text-center">Fill out the secure form below to receive a customized quote for our professional services including AI engineering, software development, data analytics, financial planning, risk management, or insurance solutions. Our team will review your information and get back to you promptly.</p>
       <form className="bg-white rounded-xl shadow-lg p-8 flex flex-col gap-4" onSubmit={handleSubmit}>
         <div className="grid md:grid-cols-2 gap-4">
           <div className="flex flex-col">
@@ -133,15 +133,16 @@ const Quote = () => {
           <label className="font-bold text-blue-900 dark:text-black font-bold tracking-wide text-lg mb-2 mt-2 uppercase">Type of Service <span className="text-red-500">*</span></label>
           <select name="policy" value={form.policy} onChange={handleChange} required className="px-3 py-2 border rounded-lg focus:ring-2 focus:ring-blue-200 dark:bg-slate-700 dark:text-white">
             <option value="">Select Service Type</option>
-            <option value="annuities">Annuities</option>
-            <option value="iul">Indexed Universal Life (IUL)</option>
-            <option value="health">Health Insurance</option>
-            <option value="auto">Auto Insurance</option>
-            <option value="home">Home Insurance</option>
-            <option value="life">Life Insurance</option>
+            <option value="ai">AI Engineering Services</option>
+            <option value="software">Software Development</option>
+            <option value="analytics">Data Analytics</option>
             <option value="financial">Financial Planning</option>
             <option value="risk">Risk Management</option>
-            <option value="analytics">Data Analytics</option>
+            <option value="health">Health Insurance</option>
+            <option value="life">Life Insurance</option>
+            <option value="annuities">Annuities</option>
+            <option value="auto">Auto Insurance</option>
+            <option value="home">Home Insurance</option>
           </select>
         </div>
 

@@ -1,20 +1,30 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Testimonials from './Testimonials';
-import { FaShieldAlt, FaCar, FaHome, FaBriefcase, FaMoneyBillWave, FaChartLine, FaBalanceScale, FaChartBar } from 'react-icons/fa';
+import { FaShieldAlt, FaCar, FaHome, FaBriefcase, FaMoneyBillWave, FaChartLine, FaBalanceScale, FaChartBar, FaRobot, FaCode } from 'react-icons/fa';
 import './services.css';
 
 const policies = [
-  { type: 'health', title: 'Health Insurance', desc: 'Comprehensive plans for you and your family.', icon: <FaShieldAlt className="animate-icon" /> },
-  { type: 'auto', title: 'Auto Insurance', desc: 'Drive with confidence and protection.', icon: <FaCar className="animate-icon" /> },
-  { type: 'home', title: 'Home Insurance', desc: 'Protect your home and valuables.', icon: <FaHome className="animate-icon" /> },
-  { type: 'life', title: 'Life Insurance', desc: 'Secure your family\'s financial future.', icon: <FaBriefcase className="animate-icon" /> },
-  { type: 'annuities', title: 'Annuities', desc: 'Guaranteed income for your retirement and future.', icon: <FaMoneyBillWave className="animate-icon" /> },
-  { type: 'risk', title: 'Risk Management Services', desc: 'Expert risk assessment and mitigation for your business and personal needs.', icon: <FaBalanceScale className="animate-icon" /> },
-  { type: 'financial', title: 'Financial Services', desc: 'Comprehensive financial planning, wealth management, and retirement solutions.', icon: <FaChartLine className="animate-icon" /> },
-  { type: 'analytics', title: 'Data Analytics Services', desc: 'Unlock insights from your data to drive smarter insurance and business decisions.', icon: <FaChartBar className="animate-icon" /> },
+  { type: 'ai', title: 'AI Engineering Services', desc: 'Transform your business with intelligent automation, machine learning solutions, and AI-powered analytics.', icon: <FaRobot className="animate-icon" /> },
+  { type: 'software', title: 'Software Engineering', desc: 'Custom software development, web applications, and system integration solutions built with modern technologies.', icon: <FaCode className="animate-icon" /> },
+  { type: 'analytics', title: 'Data Analytics Services', desc: 'Unlock insights from your data to drive smarter business decisions and optimize operations.', icon: <FaChartBar className="animate-icon" /> },
+  { type: 'financial', title: 'Financial Planning Services', desc: 'Comprehensive financial planning, wealth management, and retirement solutions.', icon: <FaChartLine className="animate-icon" /> },
+  { type: 'risk', title: 'Risk Management Services', desc: 'Expert risk assessment and mitigation strategies for your business and personal needs.', icon: <FaBalanceScale className="animate-icon" /> },
+  { type: 'health', title: 'Health Insurance', desc: 'Comprehensive health plans for you and your family.', icon: <FaShieldAlt className="animate-icon" /> },
+  { type: 'life', title: 'Life Insurance', desc: 'Secure your family\'s financial future with life insurance protection.', icon: <FaBriefcase className="animate-icon" /> },
+  { type: 'annuities', title: 'Annuities', desc: 'Guaranteed income for your retirement and future financial security.', icon: <FaMoneyBillWave className="animate-icon" /> },
+  { type: 'auto', title: 'Auto Insurance', desc: 'Drive with confidence and comprehensive protection.', icon: <FaCar className="animate-icon" /> },
+  { type: 'home', title: 'Home Insurance', desc: 'Protect your home and valuables from unexpected events.', icon: <FaHome className="animate-icon" /> },
 ];
 
 const details = {
+  ai: {
+    title: 'AI Engineering Services',
+    content: 'Transform your business operations with cutting-edge artificial intelligence solutions. Our AI engineering services include machine learning model development, intelligent automation, predictive analytics, and AI strategy consulting. We help businesses leverage AI to optimize processes, reduce costs, and drive innovation across all sectors.'
+  },
+  software: {
+    title: 'Software Engineering Solutions',
+    content: 'Custom software development tailored to your business needs. We build scalable web applications, mobile apps, enterprise software, and system integrations using modern technologies and best practices. Our development process ensures secure, maintainable, and user-friendly solutions that grow with your business.'
+  },
   health: {
     title: 'Why Health Insurance Matters',
     content: 'Health insurance protects you from unexpected medical costs, gives you access to quality care, and provides peace of mind for you and your loved ones. It covers doctor visits, hospital stays, preventive care, and more, helping you stay healthy and financially secure.'
@@ -154,7 +164,7 @@ const Services = () => {
       {/* Professional intro */}
       <div className="relative z-10 max-w-3xl text-center mb-8">
         <h2 className="text-4xl font-extrabold text-blue-900 dark:text-white mb-4 tracking-tight drop-shadow-lg">Our Services</h2>
-        <p className="text-lg text-blue-800 dark:text-blue-200 font-medium mb-4">NYOHAKI delivers comprehensive professional services including insurance solutions, financial planning, risk management, and advanced data analytics to secure and optimize your business and personal objectives.</p>
+        <p className="text-lg text-blue-800 dark:text-blue-200 font-medium mb-4">NYOHAKI delivers cutting-edge AI engineering, custom software development, data analytics, financial planning, risk management, and comprehensive insurance solutions to accelerate your business growth and success.</p>
       </div>
 
       {/* Services grid */}

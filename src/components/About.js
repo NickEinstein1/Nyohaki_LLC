@@ -4,7 +4,7 @@ const About = () => (
   <>
     <section id="about" className="max-w-4xl mx-auto py-16 px-4">
       <h2 className="text-3xl font-bold text-blue-800 mb-6">About Us</h2>
-      <p className="text-lg text-gray-700 mb-4"><span className="font-extrabold text-blue-800">NYOHAKI</span> is a comprehensive professional services firm specializing in insurance, financial planning, risk management, and data analytics. Our mission is to empower individuals and businesses with innovative solutions, expert guidance, and cutting-edge technology for a secure and prosperous future.</p>
+      <p className="text-lg text-gray-700 mb-4"><span className="font-extrabold text-blue-800">NYOHAKI</span> is a technology-forward professional services firm specializing in AI engineering, software development, data analytics, financial planning, risk management, and comprehensive insurance solutions. Our mission is to empower individuals and businesses with cutting-edge technology, innovative solutions, and expert guidance for accelerated growth and success.</p>
       <div className="grid md:grid-cols-3 gap-6 mt-8">
         <div className="bg-gradient-to-br from-white to-blue-50 rounded-xl shadow-lg border border-blue-100 p-6 hover:shadow-xl transition-shadow">
           <h3 className="font-bold text-blue-700 mb-2">Our Mission</h3>

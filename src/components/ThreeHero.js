@@ -105,22 +105,42 @@ const ThreeHero = () => {
       </div>
       <div className="flex-1 flex flex-col items-center md:items-start justify-center mt-8 md:mt-0 z-10">
         <h1 className="text-4xl md:text-6xl font-bold text-blue-800 dark:text-blue-100 mb-4 text-center md:text-left drop-shadow-lg">Professional Services, <span className="text-amber-600 dark:text-amber-400">Reimagined</span></h1>
-        <p className="text-lg md:text-xl text-blue-700 dark:text-blue-200 text-center md:text-left max-w-2xl mb-6">Comprehensive insurance, financial planning, risk management, and data analytics solutions. Experience professional excellence through innovative technology and personalized service tailored to your business and personal needs—brought to life through our interactive customer based service. Discover why we’re the best choice for your future.</p>
+        <p className="text-lg md:text-xl text-blue-700 dark:text-blue-200 text-center md:text-left max-w-2xl mb-6">AI-powered solutions, custom software development, financial planning, and comprehensive business services. Experience cutting-edge technology and expert guidance tailored to accelerate your business growth and success—brought to life through our interactive customer based service. Discover why we’re the best choice for your future.</p>
         <div className="flex justify-center md:justify-start w-full">
           <Link to="/quote" className="inline-block px-8 py-3 bg-gradient-to-r from-blue-600 to-amber-500 hover:from-blue-700 hover:to-amber-600 text-white font-bold rounded-lg shadow-lg transition-all text-lg">Get Started</Link>
         </div>
       </div>
       {/* Featured Services Section */}
-      <div className="w-full bg-gradient-to-r from-blue-50 via-amber-50 to-blue-100 dark:from-slate-800 dark:via-amber-900/10 dark:to-slate-900 py-10 px-4 md:px-12 flex flex-col md:flex-row items-center justify-center gap-8 mt-8">
-        <div className="flex-1 max-w-xl bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-8 flex flex-col items-center md:items-start mb-6 md:mb-0">
-          <h2 className="text-2xl font-bold text-blue-700 dark:text-blue-200 mb-2">Risk Management & Analytics</h2>
-          <p className="text-gray-700 dark:text-gray-100 mb-4">Protect your business with comprehensive risk assessment, mitigation strategies, and advanced data analytics. Our experts help you identify vulnerabilities and implement solutions to safeguard your operations and assets.</p>
-          <Link to="/services" className="inline-block mt-2 px-6 py-2 bg-gradient-to-r from-blue-600 to-amber-500 hover:from-blue-700 hover:to-amber-600 text-white font-semibold rounded-lg shadow transition-all">Explore Risk Solutions</Link>
+      <div className="w-full bg-gradient-to-r from-blue-50 via-amber-50 to-blue-100 dark:from-slate-800 dark:via-amber-900/10 dark:to-slate-900 py-10 px-4 md:px-12 flex flex-col lg:flex-row items-center justify-center gap-8 mt-8">
+        <div className="flex-1 max-w-sm bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-8 flex flex-col items-center md:items-start mb-6 lg:mb-0">
+          <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-amber-500 rounded-lg flex items-center justify-center mb-4">
+            <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+            </svg>
+          </div>
+          <h2 className="text-2xl font-bold text-blue-700 dark:text-blue-200 mb-2">AI Engineering</h2>
+          <p className="text-gray-700 dark:text-gray-100 mb-4">Transform your business with intelligent automation, machine learning solutions, and AI-powered analytics. We help you harness artificial intelligence to optimize operations and drive innovation.</p>
+          <Link to="/services" className="inline-block mt-2 px-6 py-2 bg-gradient-to-r from-blue-600 to-amber-500 hover:from-blue-700 hover:to-amber-600 text-white font-semibold rounded-lg shadow transition-all">Explore AI Solutions</Link>
         </div>
-        <div className="flex-1 max-w-xl bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-8 flex flex-col items-center md:items-start">
-          <h2 className="text-2xl font-bold text-blue-700 dark:text-blue-200 mb-2">Financial Planning</h2>
-          <p className="text-gray-700 dark:text-gray-100 mb-4">Build wealth and secure your financial future with personalized planning strategies. From retirement planning to investment management, our certified advisors provide comprehensive solutions tailored to your goals.</p>
-          <Link to="/services" className="inline-block mt-2 px-6 py-2 bg-gradient-to-r from-blue-600 to-amber-500 hover:from-blue-700 hover:to-amber-600 text-white font-semibold rounded-lg shadow transition-all">Start Planning Today</Link>
+        <div className="flex-1 max-w-sm bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-8 flex flex-col items-center md:items-start mb-6 lg:mb-0">
+          <div className="w-12 h-12 bg-gradient-to-r from-amber-500 to-blue-600 rounded-lg flex items-center justify-center mb-4">
+            <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+            </svg>
+          </div>
+          <h2 className="text-2xl font-bold text-amber-700 dark:text-amber-300 mb-2">Software Engineering</h2>
+          <p className="text-gray-700 dark:text-gray-100 mb-4">Custom software development, web applications, and system integration solutions. We build scalable, secure, and user-friendly applications tailored to your specific business requirements.</p>
+          <Link to="/services" className="inline-block mt-2 px-6 py-2 bg-gradient-to-r from-amber-500 to-blue-600 hover:from-amber-600 hover:to-blue-700 text-white font-semibold rounded-lg shadow transition-all">View Development Services</Link>
+        </div>
+        <div className="flex-1 max-w-sm bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-8 flex flex-col items-center md:items-start">
+          <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-blue-600 rounded-lg flex items-center justify-center mb-4">
+            <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+          </div>
+          <h2 className="text-2xl font-bold text-green-700 dark:text-green-300 mb-2">Financial Planning</h2>
+          <p className="text-gray-700 dark:text-gray-100 mb-4">Build wealth and secure your financial future with personalized planning strategies. From retirement planning to investment management, our certified advisors provide comprehensive solutions.</p>
+          <Link to="/services" className="inline-block mt-2 px-6 py-2 bg-gradient-to-r from-green-500 to-blue-600 hover:from-green-600 hover:to-blue-700 text-white font-semibold rounded-lg shadow transition-all">Start Planning Today</Link>
         </div>
       </div>
     </section>

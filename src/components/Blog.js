@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { articles } from './BlogArticle';
 
-const topics = Array.from(new Set(articles.flatMap(a => (a.desc || '').match(/\b(Annuities|IUL|Cyber|Life|Claims|Policy|Insurance|Retirement|Financial|Analytics|Risk|Management|Planning)\b/gi) || [])));
+const topics = Array.from(new Set(articles.flatMap(a => (a.desc || '').match(/\b(AI|Software|Technology|Development|Annuities|IUL|Cyber|Life|Claims|Policy|Insurance|Retirement|Financial|Analytics|Risk|Management|Planning)\b/gi) || [])));
 const authors = [
   { name: 'Juliet Kamau', avatar: 'https://randomuser.me/api/portraits/women/43.jpg' }
 ];
@@ -11,7 +11,7 @@ const publishDates = [
 ];
 
 function getTopic(article) {
-  const match = (article.desc || '').match(/(Annuities|IUL|Cyber|Life|Claims|Policy|Insurance|Retirement|Financial|Analytics|Risk|Management|Planning)/i);
+  const match = (article.desc || '').match(/(AI|Software|Technology|Development|Annuities|IUL|Cyber|Life|Claims|Policy|Insurance|Retirement|Financial|Analytics|Risk|Management|Planning)/i);
   return match ? match[0] : 'General';
 }
 
@@ -74,7 +74,7 @@ const Blog = () => {
       {/* Newsletter Signup CTA */}
       <div className="mt-14 flex flex-col items-center bg-gradient-to-r from-blue-100 via-amber-100/50 to-blue-50 dark:from-slate-900 dark:via-amber-900/20 dark:to-slate-800 rounded-2xl p-8 shadow-lg">
         <h4 className="text-xl font-bold text-blue-800 mb-2">Stay Informed!</h4>
-        <p className="text-gray-600 dark:text-blue-100 mb-4 text-center">Subscribe to our newsletter for the latest professional insights, financial tips, risk management updates, and exclusive offers.</p>
+        <p className="text-gray-600 dark:text-blue-100 mb-4 text-center">Subscribe to our newsletter for the latest AI insights, software development trends, financial tips, technology updates, and exclusive offers.</p>
         <form className="flex flex-col sm:flex-row gap-2 w-full max-w-md" onSubmit={e=>{e.preventDefault();alert('Subscribed!')}}>
           <input type="email" required placeholder="Your email" className="flex-1 px-4 py-2 rounded-lg border focus:ring-2 focus:ring-blue-400" />
           <button type="submit" className="px-6 py-2 bg-gradient-to-r from-blue-600 to-amber-500 hover:from-blue-700 hover:to-amber-600 text-white rounded-lg font-bold shadow transition-all">Subscribe</button>
