@@ -1,10 +1,10 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Testimonials from './Testimonials';
-import { FaShieldAlt, FaCar, FaHome, FaBriefcase, FaMoneyBillWave, FaChartLine, FaBalanceScale, FaChartBar, FaRobot, FaCode } from 'react-icons/fa';
+import { FaShieldAlt, FaCar, FaHome, FaBriefcase, FaMoneyBillWave, FaChartLine, FaBalanceScale, FaChartBar, FaCode } from 'react-icons/fa';
 import './services.css';
 
 const policies = [
-  { type: 'ai', title: 'AI Engineering Services', desc: 'Transform your business with intelligent automation, machine learning solutions, and AI-powered analytics.', icon: <FaRobot className="animate-icon" /> },
+  { type: 'ai', title: 'AI Engineering Services', desc: 'Transform your business with intelligent automation, machine learning solutions, and AI-powered analytics.', icon: <FaChartBar className="animate-icon" /> },
   { type: 'software', title: 'Software Engineering', desc: 'Custom software development, web applications, and system integration solutions built with modern technologies.', icon: <FaCode className="animate-icon" /> },
   { type: 'analytics', title: 'Data Analytics Services', desc: 'Unlock insights from your data to drive smarter business decisions and optimize operations.', icon: <FaChartBar className="animate-icon" /> },
   { type: 'financial', title: 'Financial Planning Services', desc: 'Comprehensive financial planning, wealth management, and retirement solutions.', icon: <FaChartLine className="animate-icon" /> },
