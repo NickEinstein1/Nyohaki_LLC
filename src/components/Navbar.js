@@ -52,7 +52,7 @@ function Navbar() {
         <li><Link to="/" className="hover:text-amber-600 dark:hover:text-amber-400 transition-colors" onClick={()=>setOpen(false)}>Home</Link></li>
         <li><Link to="/services" className="hover:text-amber-600 dark:hover:text-amber-400 transition-colors" onClick={()=>setOpen(false)}>Services</Link></li>
         <li><Link to="/quote" className="hover:text-amber-600 dark:hover:text-amber-400 transition-colors" onClick={()=>setOpen(false)}>Quote</Link></li>
-        <li><Link to="/team" className="hover:text-amber-600 dark:hover:text-amber-400 transition-colors" onClick={()=>setOpen(false)}>Our Team</Link></li>
+        {/* <li><Link to="/team" className="hover:text-amber-600 dark:hover:text-amber-400 transition-colors" onClick={()=>setOpen(false)}>Our Team</Link></li> */}
         <li><Link to="/careers" className="hover:text-amber-600 dark:hover:text-amber-400 transition-colors" onClick={()=>setOpen(false)}>Careers</Link></li>
         <li><Link to="/blog" className="hover:text-amber-600 dark:hover:text-amber-400 transition-colors" onClick={()=>setOpen(false)}>Blog</Link></li>
         <li><Link to="/faq" className="hover:text-amber-600 dark:hover:text-amber-400 transition-colors" onClick={()=>setOpen(false)}>FAQ</Link></li>
